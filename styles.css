@@ -63,7 +63,12 @@
     font-size: 24px;
     color: white;
     font-weight: 500;
+ 
+ }
+ .content h4:hover{
     text-decoration: underline;
+    transition: 0.2s ease;
+    color:  #fc9003;
  }
  .content p{
     color: white;
@@ -158,6 +163,9 @@ cursor: pointer;
     transform: translate(-50%, -50%);
     text-align: center;
     padding: 0px 60px;
+}
+.content-section p{
+    margin-top: 20px;
 }
 .content-section h1{
     color: black;
