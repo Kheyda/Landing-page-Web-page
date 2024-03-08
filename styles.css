@@ -166,6 +166,7 @@ cursor: pointer;
 }
 .content-section p{
     margin-top: 20px;
+    text-align: center;
 }
 .content-section h1{
     color: black;
