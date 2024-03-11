@@ -184,6 +184,11 @@ cursor: pointer;
     line-height: 1.5p;
 
 }
+.content-section span{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:larger;
+}
 .content-section .button{
     margin-top: 25px;
 }
@@ -208,10 +213,10 @@ cursor: pointer;
     color: white;
 }
 @media screen and (max-width: 768px) {
-    .toggle-btn{
+    /*.toggle-btn{
         display: flex;
         z-index: 2;
-    }
+    }*/
     .navbar ul{
         width: 100%;
         min-height: 100vh;
